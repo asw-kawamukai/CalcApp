@@ -23,5 +23,16 @@ class Car {
         print("運転開始")
         print("前輪 \(frontWheel)")
         print("後輪　\(rearWheel)")
+
     }
+    
+    func move(toBack:String) {
+        print(toBack)
+
+    }
+    
+    func sumWheel(num1:Int,num2:Int)->Int {
+        return num1 + num2
+        
+}
 }
